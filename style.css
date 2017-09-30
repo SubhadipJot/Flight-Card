@@ -1,0 +1,265 @@
+html{
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	color: white;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: #51bde8;
+}
+
+.wrapper{
+	text-align: center;
+}
+
+.flightInfo{
+	width: 280px;
+	height: 130px;
+	background: #f7ef85;
+	background: -moz-linear-gradient(-45deg, #f7ef85 0%, #e57d06 100%);
+	background: -webkit-linear-gradient(-45deg, #f7ef85 0%,#e57d06 100%);
+	background: linear-gradient(135deg, #f7ef85 0%,#e57d06 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7ef85', endColorstr='#e57d06',GradientType=1 );
+	position: absolute;
+	top: -10px;
+	left: -10px;
+	border-radius: 15px;
+	box-shadow: 0 5px 40px -3px rgb(145, 145, 145);
+}
+.info{
+	position: absolute;
+  	top: 50px;
+  	left: 60px;
+	width: 260px;
+	height: 410px;
+	background: #f9f9f9;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+/* ARRIVAL AND DEPARTURE INFO */
+
+p{
+	position: absolute;
+	top: 30px;
+	left: 20px;
+	max-width: 260px;
+}
+
+#dep{
+	font-weight: 700;
+	font-size: 1.4em;
+	display: inline;
+	padding: 10px;
+	margin-right: 100px;
+}
+
+#arr{
+	font-weight: 700;
+	font-size: 1.4em;
+	display: inline;
+	padding: 10px;
+	margin: 0;
+}
+
+#timeP{
+	position: absolute;
+	top: 60px;
+	left: 28px;
+	max-width: 260px;
+}
+
+#time{
+	font-size: 12px;
+	font-weight: 600;
+	display: inline;
+	padding: 10px;
+	margin-right: 120px;
+}
+
+#timeArr{
+	font-weight: 600;
+	font-size: 12px;
+	display: inline;
+	padding: 10px;
+
+}
+
+/* ARRIVAL AND DEPARTURE INFO */
+
+/* PARTITIONS */
+
+.verticalLine {
+  background: #ffffff;
+  height: 155px;
+  border-left: 2px solid #d8d8d8;
+  position: absolute;
+  top: 160px;
+  left: 170px;
+}
+
+.horizontalLine{
+  background: #ffffff;
+  width: 230px;
+  border-top: 2px solid #d8d8d8;
+  position: absolute;
+  top: 315px;
+  left: 15px;
+}
+
+/* PARTITIONS */
+
+/* NAMES AND LABELS */
+
+#labelPsngrNm{
+	color: #878787;
+	font-weight: bold;
+	font-size: 10px;
+	position: absolute;
+	top: 160px;
+}
+
+#psngrNm{
+	color: #878787;
+	font-weight: 200;
+	font-size: 20px;
+	position: absolute;
+	top: 165px;
+
+}
+
+#labelFltNo{
+	color: #878787;
+	font-weight: bold;
+	font-size: 10px;
+	position: absolute;
+	top: 160px;
+	left: 190px;
+}
+
+#FltNo{
+	color: #878787;
+	font-weight: 200;
+	font-size: 10px;
+	position: absolute;
+	top: 182px;
+	left: 190px;
+}
+
+#labelGate{
+	color: #878787;
+	font-weight: bold;
+	font-size: 10px;
+	position: absolute;
+	top: 220px;
+	left: 190px;
+}
+
+#Gate{
+	color: #878787;
+	font-weight: 200;
+	font-size: 35px;
+	position: absolute;
+	top: 205px;
+	left: 190px;
+}
+
+#labelClass{
+	color: #878787;
+	font-weight: bold;
+	font-size: 10px;
+	position: absolute;
+	top: 215px;
+}
+
+#Class{
+	color: #878787;
+	font-weight: 200;
+	font-size: 10px;
+	position: absolute;
+	top: 230px;
+
+}
+
+#labelSeat{
+	color: #878787;
+	font-weight: bold;
+	font-size: 10px;
+	position: absolute;
+	top: 215px;
+	left: 110px;
+}
+
+#Seat{
+	color: #878787;
+	font-weight: 200;
+	font-size: 10px;
+	position: absolute;
+	top: 230px;
+	left: 110px;
+
+}
+
+#labelBag{
+	color: #878787;
+	font-weight: bold;
+	font-size: 10px;
+	position: absolute;
+	top: 265px;
+}
+
+#Bag{
+	color: #878787;
+	font-weight: 200;
+	font-size: 10px;
+	position: absolute;
+	top: 280px;
+
+}
+
+#labelBoard{
+	color: #878787;
+	font-weight: bold;
+	font-size: 10px;
+	position: absolute;
+	top: 315px;
+}
+
+#labelFinalCall{
+	color: #878787;
+	font-weight: bold;
+	font-size: 10px;
+	position: absolute;
+	top: 345px;
+}
+
+#FinalCall{
+	color: #878787;
+	font-weight: 200;
+	font-size: 13px;
+	position: absolute;
+	top: 355px;
+
+}
+
+#labelSeatPos{
+	color: #878787;
+	font-weight: bold;
+	font-size: 10px;
+	position: absolute;
+	top: 345px;
+	left: 100px;
+}
+
+#SeatPos{
+	color: #878787;
+	font-weight: 200;
+	font-size: 13px;
+	position: absolute;
+	top: 355px;
+	left: 100px;
+
+}
+
+/* NAMES AND LABELS */
